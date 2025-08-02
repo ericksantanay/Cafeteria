@@ -30,18 +30,22 @@ header{
     left: 0;
     right: 0;
     z-index: 99;
+    background-color: var(--color-principal);
 }
 
 header .homebar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
 }
 
 .homebar{
-  background-color: var(--color-principal);
+  padding: 3rem 2rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  max-width: 1200px;
 }
 
 #img-logo{
@@ -51,9 +55,13 @@ header .homebar{
     border: 1px solid var(--color-cinza);
 }
 
-.navbar{
-    
+.navbar a{
+    font-family: var(--font01);
+    color: white;
+    margin-left: 10px;
 }
 
-
+.navbar a:hover{
+    
+}
 
