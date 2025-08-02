@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -18,50 +18,8 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-}
+    transition: 0s;
+}*/
 
-body{
-    background-color: var(--color-principal);
-}
 
-header{
-    border-bottom: 1px solid var(--color-cinza);
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    background-color: var(--color-principal);
-}
-
-header .homebar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 1.0rem;
-    padding-bottom: 1.0rem;
-}
-
-.homebar{
-  padding: 3rem 2rem;
-  margin-left: 30rem;
-  margin-right: 30rem;
-  max-width: 1200px;
-}
-
-#img-logo{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 1px solid var(--color-cinza);
-}
-
-.navbar a{
-    font-family: var(--font01);
-    color: white;
-    margin-left: 10px;
-}
-
-.navbar a:hover{
-    
-}
 
