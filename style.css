@@ -46,5 +46,11 @@ main{
 }
 
 .conteudo-1{
-
+  width: 98vw;
+  height: 100vh;
+  color: white;
+  background-image: url(image/xicara-com-café.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
