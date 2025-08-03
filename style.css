@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
 
-
+           /*Cores e fontes*/
 :root{
     --color-principal: #000;
     --color-dourada: #daa520;
@@ -14,14 +14,14 @@
     --font02: "Roboto", sans-serif;
     --font03: "Red Rose", serif;
 }
-
+            /*Seletor Universal*/
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    
 }
 
+            /*Body*/
 body{
     background-color: black;
     color: white;
