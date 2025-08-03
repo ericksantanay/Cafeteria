@@ -222,6 +222,7 @@ article h2{
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
+    font-family: var(--font01);
 }
 
 .menu-{
@@ -229,3 +230,4 @@ article h2{
     margin-left: 50px;
     text-align: center;
 }
+
