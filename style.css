@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -18,39 +18,108 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    transition: 0s;
-}*/
+    
+}
 
 /**/
 
 body{
-    
+    background-color: black;
+    color: white;
 }
 
 .img-logo img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    border: 1px solid var(--color-marrom);
 }
-/*Se eu preciar editar*/
-nav{
 
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: 1px solid var(--color-cinza);
+    /*background-color: #000;*/
 }
-/*Se eu preciar editar*/
+
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 10rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+nav a{
+    font-family: var(--font03);
+    color: white;
+    margin-left: 18px;
+}
+
+nav a:hover{
+    font-size: 25px;
+    transition: 0.4s linear;
+    color: var(--color-cinza);
+    text-decoration: underline
+}
+
 .lupa-cart{
-
+    cursor: pointer;
 }
+
+svg{
+    margin-left: 30px;
+}
+
+svg:hover{
+    width: 35px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+
 /*Se eu preciar editar*/
 main{
 
 }
 
+main .conteudo-1{
+    
+    
+}
+
 .conteudo-1{
-  width: 98vw;
   height: 100vh;
   color: white;
   background-image: url(image/xicara-com-café.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.conteudo-1 h2{
+    color: white;
+    font-size: 3rem;
+    font-family: var(--font02);
+}
+
+.conteudo-1 p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+.btn-p{
+    padding: 10px;
+    background-color: var(--color-dourada);
+    color: white;
+    border-radius: 4px;
+    font-family: var(--font01);
+    margin-top: 1.8rem;
+    display: inline-block;
 }
