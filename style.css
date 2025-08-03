@@ -170,9 +170,27 @@ article h2{
 .container{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgba(22, 21, 21, 0.716);
     width: 510px;
     height: 337px;
+}
+
+.btn-s{
+    width: 100px;
+    padding: 10px;
+    background-color: var(--color-dourada);
+    color: white;
+    border-radius: 4px;
+    font-family: var(--font01);
+    margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
+    margin: auto;
+}
+
+.btn-s:hover{
+    color: var(--color-cinza);
+    transition: 0.3s;
+    padding: 15px;
 }
 
 
