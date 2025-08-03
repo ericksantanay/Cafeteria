@@ -170,7 +170,9 @@ article h2{
 }
 
 .container h3{
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .btn-s{
