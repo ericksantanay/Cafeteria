@@ -171,7 +171,7 @@ article h2{
 }
 
 .container h3{
-    padding-top: 30px;
+    padding-top: 24px;
     padding-bottom: 8px;
     font-family: var(--font02);
     font-size: 2rem;
@@ -179,7 +179,7 @@ article h2{
 }
 
 .container p{
-  padding-top: 5px;
+  padding-top: 3px;
   padding-left: 20px;
   padding-right: 20px;
   line-height: 24px;
@@ -192,7 +192,7 @@ article h2{
     color: white;
     border-radius: 4px;
     font-family: var(--font01);
-    margin-top: 1.8rem;
+    margin-top: 1.0rem;
     margin-bottom: 1.2rem;
     margin: auto;
 }
@@ -229,7 +229,7 @@ article h2{
     border: 1px solid var(--color-marrom);
     margin-left: 50px;
     text-align: center;
-    padding: 0px 10px 20px 10px ;
+    padding: 13px 10px 30px 20px;
 }
 
 .menu- > h3, p, a{
@@ -237,11 +237,14 @@ article h2{
 }
 
 .btn{
+    color: white;
+    font-family: var(--font02);
     background-color: var(--color-dourada);
     border-radius: 5px;
-    padding: 5px;
+    padding: 4px;
 }
 
 .btn:hover{
-    
+    transition: 0.3s;
+    padding: 8px;
 }
