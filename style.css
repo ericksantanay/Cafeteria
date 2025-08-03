@@ -218,3 +218,7 @@ article h2{
     color: var(--color-dourada);
 }
 
+.men{
+    display: flex;
+    justify-content: center;
+}
