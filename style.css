@@ -251,5 +251,16 @@ article h2{
 }
 
 .endereco{
-    
+    text-align: center;
+}
+
+.endereco > h2{
+    color: white;
+    font-family: var(--font02);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.endereco span{
+    color: var(--color-dourada);
 }
