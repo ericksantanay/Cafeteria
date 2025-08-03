@@ -205,7 +205,6 @@ article h2{
 
 .menu-1{
     margin-top: 3rem;
-    border: 1px solid blue;
     
 }
 
@@ -218,6 +217,7 @@ article h2{
     color: var(--color-dourada);
 }
 
+
 .men{
     display: flex;
     justify-content: center;
@@ -226,7 +226,8 @@ article h2{
 }
 
 .menu-{
-    border: 1px solid var(--color-marrom);
+    background-color: #964b001f;
+    border: 1px solid var(--color-dourada);
     margin-left: 40px;
     text-align: center;
     padding: 15px;
