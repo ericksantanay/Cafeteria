@@ -41,7 +41,7 @@ header{
     right: 0;
     z-index: 99;
     border-bottom: 1px solid var(--color-cinza);
-    /*background-color: #000;*/
+    background-color: #000;
 }
 
 header section{
@@ -100,18 +100,30 @@ main .conteudo-1{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  padding-top: 20rem;
 }
 
-.conteudo-1 h2{
-    color: white;
+.conteudo-1 article{
+    width: 450px;
+    background-color: #000000a4;
+    border-radius: 5px;
+    border: 1px solid var(--color-marrom);
+    margin-left: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+article h2{   
     font-size: 3rem;
     font-family: var(--font02);
+    padding-bottom: 20px;
 }
 
 .conteudo-1 p{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 300;
-    line-height: 1.8rem;
+    line-height: 2rem;
+    font-family: var(--font01);
 }
 
 .btn-p{
@@ -121,5 +133,23 @@ main .conteudo-1{
     border-radius: 4px;
     font-family: var(--font01);
     margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
     display: inline-block;
 }
+
+.btn-p:hover{
+    color: var(--color-cinza);
+    transition: 0.3s;
+    padding: 15px;
+}
+
+
+.conteudo-2 article{
+    display: block;
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+
