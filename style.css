@@ -244,8 +244,9 @@ article h2{
 .btn:hover{
     transition: 0.2s;
     padding: 9px;
+    color: var(--color-cinza);
 }
-                /*Endereço da Cafeteria*/
+            /*Endereço da Cafeteria*/
 .endereco{
     text-align: center;
     background-color: #161616;
