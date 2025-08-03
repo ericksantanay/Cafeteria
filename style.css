@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
 
+
 :root{
     --color-principal: #000;
     --color-dourada: #daa520;
@@ -20,8 +21,6 @@
     text-decoration: none;
     
 }
-
-/**/
 
 body{
     background-color: black;
@@ -80,17 +79,6 @@ svg:hover{
     width: 35px;
     height: 35px;
     transition: 0.3s;
-}
-
-
-/*Se eu preciar editar*/
-main{
-
-}
-
-main .conteudo-1{
-    
-    
 }
 
 .conteudo-1{
@@ -204,8 +192,7 @@ article h2{
 }
 
 .menu-1{
-    margin-top: 3rem;
-    
+    margin-top: 3rem; 
 }
 
 #M-e{
@@ -216,7 +203,6 @@ article h2{
 #M-e span{
     color: var(--color-dourada);
 }
-
 
 .men{
     display: flex;
