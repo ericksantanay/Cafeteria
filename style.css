@@ -144,12 +144,42 @@ article h2{
 }
 
 
-.conteudo-2 article{
-    display: block;
-    display: flex;
-    
-    justify-content: center;
+.conteudo-2 h2{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font02);
+    color: var(--color-dourada);
 }
+
+.conteudo-2 span{
+    color: white;
+    display: inline-block;
+}
+
+.conteudo-2 span:hover{
+    color: var(--color-cinza);
+    transition: 0.3s;
+    padding: 15px;
+}
+
+.conteudo-2 article{
+    width: 510px;
+    height: 337px;
+    background-color: #ff2e2e;
+}
+
+.conteudo-2 article h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.row{
+
+    margin: auto;
+}
+
 
 
 
