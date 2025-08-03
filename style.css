@@ -144,15 +144,18 @@ article h2{
 }
 
 
-.conteudo-2 h2 span{
-    padding-top: 15px;
+
+.conteudo-2 h2{
     text-align: center;
+    font-family: var(--font01);
     font-size: 3rem;
-    font-family: var(--font02);
-    color: var(--color-dourada);
-    display: block;
+    margin-top: 20px ;
+    margin-bottom: 20px;
 }
 
+.conteudo-2 span{
+    color: var(--color-dourada);
+}
 
 .conteudo-2 article{
     width: 510px;
