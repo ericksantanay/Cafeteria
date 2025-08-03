@@ -221,4 +221,11 @@ article h2{
 .men{
     display: flex;
     justify-content: center;
+    margin-bottom: 35px;
+}
+
+.menu-{
+    border: 1px solid var(--color-marrom);
+    margin-left: 50px;
+    text-align: center;
 }
