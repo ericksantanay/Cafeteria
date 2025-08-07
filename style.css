@@ -65,7 +65,7 @@ nav a{
 
 nav a:hover{
     font-size: 25px;
-    transition: 0.4s linear;
+    transition: 0.3s;
     color: var(--color-cinza);
     text-decoration: underline
 }
